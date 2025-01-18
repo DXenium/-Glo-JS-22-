@@ -18,7 +18,7 @@ const numWord = (value, words) => {
 
 const updateTimer = () => {
     const date = new Date()
-    const dateDeadline = new Date('29 april 2022').getTime()
+    const dateDeadline = new Date('29 april 2028').getTime()
     const timeRemaining = (dateDeadline - date) / 1000
 
     const days = Math.floor(timeRemaining / 60 / 60 / 24)
